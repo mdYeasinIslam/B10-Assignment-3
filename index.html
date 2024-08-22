@@ -54,14 +54,14 @@
                         </svg>
                     </div>
                     <!-- icons for lg-device -->
-                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9]">
+                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9] hidden lg:block">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
-                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full">
+                    <button class="btn btn-ghost btn-circle bg-[#E9E9E9] rounded-full hidden lg:block">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -69,7 +69,7 @@
                         </svg>
 
                     </button>
-                    <div class="bg-color font-bold px-3 py-1 rounded-full">
+                    <div class="bg-color font-bold px-3 py-1 rounded-full hidden lg:block">
                         Book consultant
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6 inline bg-black text-white rounded-full p-1 ">
@@ -85,16 +85,16 @@
         <!-- banner -->
         <section class="mb-20">
             <div class="flex flex-col items-center">
-                <figure>
-                    <img src="./assets/banner.png" alt="">
+                <figure class="">
+                    <img class="w-[80%] mx-auto lg:w-full" src="./assets/banner.png" alt="">
                 </figure>
                 <div class="text-center  space-y-8">
-                    <h1 class="text-6xl font-bold w-[90%] mx-auto">A barn house of this design has a <br>striking
+                    <h1 class="text-3xl lg:text-6xl font-extrabold w-[90%] lg:w-[80%] mx-auto">A barn house of this design has a striking
                         appearance</h1>
-                    <p class="mb-0 pb-0 w-[70%] mx-auto">The barn house captivates with its blend of rustic charm and
+                    <p class="mb-0 pb-0 w-[90%] lg:w-[70%] mx-auto">The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents, and large windows that
                         flood the space with natural light.</p>
-                    <button class="btn bg-[#ABEF5F80] font-bold rounded-full "> View details
+                    <button class="btn w-[90%] lg:w-[15%] bg-[#ABEF5F80] font-bold rounded-full "> View details
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6 inline bg-color rounded-full font-extrabold p-1">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -105,28 +105,28 @@
             </div>
         </section>
         <!-- About us-->
-        <section class=" bg-[#E9E9E9] pt-2">
-            <img class="border-2 border-gray-500 border-dashed ml-12 py-4" src="./assets/Vector.png" alt="">
-            <h4 class="ml-24 font-bold bg-white inline rounded-full px-3 py-1 "><svg xmlns="http://www.w3.org/2000/svg"
+        <section class=" bg-[#E9E9E9] pt-8 lg:pt-2">
+            <img class="border-2 border-gray-500 border-dashed ml-12 py-4 hidden lg:block" src="./assets/Vector.png" alt="">
+            <h4 class="w-1/2 mx-auto lg:ml-24  font-bold bg-white lg:inline rounded-full px-3 py-1 "><svg xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline ">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
                 About us
             </h4>
-            <div class="max-w-[1200px] mx-auto flex">
+            <div class="w-[90%] lg:max-w-[1200px] mx-auto lg:flex">
                 <div class="mt-5 space-y-7 w-[100%]">
-                    <h1 class="text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
-                    <p>The barn house captivates with its blend of rustic charm and
+                    <h1 class="text-3xl lg:text-5xl text-center lg:text-start font-extrabold">We design thoughtful, liveable spaces</h1>
+                    <p class="text-center lg:text-start">The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     <div class=" space-y-5">
-                        <div class="flex bg-white px-5 py-7 rounded-md">
+                        <div class="flex bg-white px-2 lg:px-5 py-4 lg:py-7 rounded-md">
                             <img src="./assets/commercial.png" alt="">
                             <div class="ml-5" >
                                 <h1 class=" text-xl font-bold">Commercial</h1>
                                 <p>The barn house captivates with its blend of rustic charm and modern.</p>
                             </div>
                         </div>
-                        <div class="flex bg-white px-5 py-7 rounded-md">
+                        <div class="flex bg-white px-2 lg:px-5 py-4 lg:py-7 rounded-md">
                             <img src="./assets/residential.png" alt="">
                             <div class="ml-5 ">
                                 <h1 class=" text-xl font-bold">Residential</h1>
@@ -135,8 +135,8 @@
                         </div>
                     </div>
                 </div>
-                <figure class="w-[100%] mt-0 flex justify-end">
-                    <img class="h-[95%]" src="./assets/Rectangle.png" alt="">
+                <figure class="mt-8 lg:mt-0 lg:w-[100%] ml-3 xl:ml-0 flex justify-end">
+                    <img class="w-full h-full xl:h-[95%]" src="./assets/Rectangle.png" alt="">
                 </figure>
 
             </div>
