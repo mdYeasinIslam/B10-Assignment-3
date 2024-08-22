@@ -23,7 +23,7 @@
 <body>
 
     <header class="max-w-6xl mx-auto ">
-        <nav >
+        <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <figure class=" bg-color font-bold rounded-full p-1">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
+                        <li class="font-bold"><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
                         <li><a>Blogs</a></li>
@@ -82,11 +82,66 @@
         </nav>
     </header>
     <main>
-<section>
-    <div class="w-full h-40 bg-[#E9E9E9]">
+        <!-- banner -->
+        <section class="mb-20">
+            <div class="flex flex-col items-center">
+                <figure>
+                    <img src="./assets/banner.png" alt="">
+                </figure>
+                <div class="text-center  space-y-8">
+                    <h1 class="text-6xl font-bold w-[90%] mx-auto">A barn house of this design has a <br>striking
+                        appearance</h1>
+                    <p class="mb-0 pb-0 w-[70%] mx-auto">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents, and large windows that
+                        flood the space with natural light.</p>
+                    <button class="btn bg-[#ABEF5F80] font-bold rounded-full "> View details
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 inline bg-color rounded-full font-extrabold p-1">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- About us-->
+        <section class=" bg-[#E9E9E9] pt-2">
+            <img class="border-2 border-gray-500 border-dashed ml-12 py-4" src="./assets/Vector.png" alt="">
+            <h4 class="ml-24 font-bold bg-white inline rounded-full px-3 py-1 "><svg xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+                About us
+            </h4>
+            <div class="max-w-[1200px] mx-auto flex">
+                <div class="mt-5 space-y-7 w-[100%]">
+                    <h1 class="text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
+                    <p>The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class=" space-y-5">
+                        <div class="flex bg-white px-5 py-7 rounded-md">
+                            <img src="./assets/commercial.png" alt="">
+                            <div class="ml-5" >
+                                <h1 class=" text-xl font-bold">Commercial</h1>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                        <div class="flex bg-white px-5 py-7 rounded-md">
+                            <img src="./assets/residential.png" alt="">
+                            <div class="ml-5 ">
+                                <h1 class=" text-xl font-bold">Residential</h1>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <figure class="w-[100%] mt-0 flex justify-end">
+                    <img class="h-[95%]" src="./assets/Rectangle.png" alt="">
+                </figure>
 
-    </div>
-</section>
+            </div>
+
+        </section>
     </main>
 
 </body>
